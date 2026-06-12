@@ -81,3 +81,25 @@ print(sample.count(2))
 print(sample.index(3))
 
 # 마음의 다짐을 함
+
+
+fruits = ['사과', '바나나', '수박']
+
+for fruit in fruits:
+    print(fruit)
+
+for i in range(5):
+    print(f"{i}번째 반복 중입니다.")
+
+
+total = 0
+
+for num in range(1, 11): # 1부터 10까지
+    total = total + num  # 기존 total에 새로운 num을 더함
+
+print(f"1부터 10까지 더한 합은: {total}")
+
+
+for num in range(1, 11):
+    if num % 2 != 0:
+        print(num)
